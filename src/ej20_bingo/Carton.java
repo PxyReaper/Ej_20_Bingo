@@ -26,9 +26,9 @@ public class Carton {
     
        public void comprobarNumero(int numero){
            if (listaNumeros.contains(numero)) {
-               numeroDeAciertos++;
+               this.numeroDeAciertos++;
            }
-
+           
        
        }
        public void verNumeros(){

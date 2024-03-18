@@ -56,6 +56,7 @@ public class Jugador {
             for (int i = 0; i < cartones.size(); i++) {
                 cartones.get(i).comprobarNumero(numero);
                 if (cartones.get(i).getNumeroDeAciertos() == 10) {
+   
                     System.out.println(cartones.get(i).getListaNumeros());
                     this.ganador = true;
                     
