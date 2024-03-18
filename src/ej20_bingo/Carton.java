@@ -7,7 +7,7 @@ import java.util.Random;
 public class Carton {
     /*
         El <> sirve para colocar el objeto que vas a introducir en tu array
-        en este caso, al ser int un tipo generico, utilizamos su  clase envolto
+        en este caso, al ser int un tipo primitivo, utilizamos su  clase envolto
         rio (Integer)
     
     */
